@@ -16,7 +16,7 @@ echo installing Piz...
 
 echo moving startup scripts...
 (sleep 1; sudo  cp -r main/startpiz /usr/local/bin)
-(sleep 1; chmod +x /usr/local/bin/startpiz)
+(sleep 1; sudo chmod +x /usr/local/bin/startpiz)
 echo moved session startup script.
 (sleep 1; sudo cp -r main/piz.desktop /usr/share/xsessions/)
 echo moved session desktop entry.
@@ -45,6 +45,7 @@ echo moved emerald config.
 (sleep 1; echo moving gtk themes...)
 mkdir ~/.themes
 mkdir ~/.icons
+unzip themes.zip
 cp -r themes/Reactium ~/.themes
 cp -r themes/oxylite ~/.icons
 cp -r themes/Moga-Dark ~/.icons
