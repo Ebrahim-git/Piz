@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# background services
+xfce4-panel &
+xfce4-screensaver &
+xsettingsd &
+sxhkd &
+nm-applet &
+/usr/libexec/mate-notification-daemon/mate-notification-daemon &
+(sleep 2; plank) &
+
+# polkit agent
+/usr/libexec/polkit-mate-authentication-agent-1 &
+
+
+# compiz starter
+exec compiz ccp

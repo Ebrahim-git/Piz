@@ -1,0 +1,14 @@
+# open term
+control + alt + t
+   mate-terminal
+
+# S.S
+Print
+   xfce4-screenshooter
+
+# lock screen
+super + l
+   xfce4-screensaver-command --lock
+
+super + v
+   simplescreenrecorder

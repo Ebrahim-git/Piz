@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Piz
+Icon=/usr/share/icons/oxylite/apps/org.gnome.meld.svg
+Comment=custom Compiz session
+Exec=/usr/local/bin/startpiz
+Type=Application
+DesktopNames=Piz
