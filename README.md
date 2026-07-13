@@ -13,7 +13,7 @@ currently, Piz is just a mash up of xfce and MATE components but will hopefully 
 # Disclaimer:
 Piz is not in a perfect state, some features are missing and not avaliable as of now. suggesting improvements are welcome.
 
-To install Piz. Clone this repository and run installpiz.sh as root.
+To install Piz. Clone this repository and run `installpiz.sh`.
 (Note: the installer script currently only works on debian, support for other distros will be made later on.)
 
  **Manual Installation**
