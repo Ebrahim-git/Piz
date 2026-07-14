@@ -9,7 +9,7 @@ echo installing Piz...
  sudo apt purge emerald-themes
  echo core components installed.
  echo installing extras...
- (sleep 1; sudo apt install compizconfig-settings-manager xfce4-taskmanager xfce4-panel xfce4-clipman xfce4-screenshooter  xfce4-clipman-plugin plank xfce4-pulseaudio-plugin mate-notification-daemon)
+ (sleep 1; sudo apt install compizconfig-settings-manager xfce4-panel xfce4-clipman xfce4-screenshooter  xfce4-clipman-plugin plank xfce4-pulseaudio-plugin mate-notification-daemon)
  echo extras installed.
 
 # the scripts and .desktops used for display managers like lightdm
