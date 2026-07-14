@@ -18,6 +18,7 @@ echo moving startup scripts...
 (sleep 1; sudo  cp -r main/startpiz /usr/local/bin)
 (sleep 1; sudo chmod +x /usr/local/bin/startpiz)
 sudo cp -r custom/ppower /usr/local/bin
+sudo chmod +x /usr/local/bin/ppower
 sudo cp -r custom/PpowerMenu.py /opt
 echo moved session startup script.
 (sleep 1; sudo cp -r main/piz.desktop /usr/share/xsessions/)
