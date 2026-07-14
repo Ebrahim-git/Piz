@@ -28,7 +28,7 @@ echo moved session desktop entry.
 echo moving configuration files...
 cp -r configs/compiz ~/.config
 echo moved compiz config.
-cp -r configs/.pizwall.jpg ~/
+cp -r configs/.pizwall.jpg /opt
 echo moved compiz wallpaper.
 cp -r configs/xsettingsd ~/.config
 echo moved xsettings config.
