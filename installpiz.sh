@@ -9,7 +9,7 @@ echo installing Piz...
  sudo apt purge emerald-themes
  echo core components installed.
  echo installing extras...
- (sleep 1; sudo apt install thunar compizconfig-settings-manager pluma xfce4-taskmanager parole xfce4-panel xfce4-clipman xfce4-screenshooter  xfce4-clipman-plugin plank ristretto xfce4-pulseaudio-plugin mate-notification-daemon)
+ (sleep 1; sudo apt install compizconfig-settings-manager xfce4-taskmanager xfce4-panel xfce4-clipman xfce4-screenshooter  xfce4-clipman-plugin plank xfce4-pulseaudio-plugin mate-notification-daemon)
  echo extras installed.
 
 # the scripts and .desktops used for display managers like lightdm
@@ -17,6 +17,8 @@ echo installing Piz...
 echo moving startup scripts...
 (sleep 1; sudo  cp -r main/startpiz /usr/local/bin)
 (sleep 1; sudo chmod +x /usr/local/bin/startpiz)
+sudo cp -r custom/ppower /usr/local/bin
+sudo cp -r custom/PpowerMenu.py /opt
 echo moved session startup script.
 (sleep 1; sudo cp -r main/piz.desktop /usr/share/xsessions/)
 echo moved session desktop entry.
