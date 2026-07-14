@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Session
+Comment=power menu
+Exec=ppower
+Icon=
+Path=
+Terminal=false
+StartupNotify=false
